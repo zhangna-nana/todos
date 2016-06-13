@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+		<link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+	<section id="todoapp">
+		<header id="header">
+			<h1>todos</h1>
+			<input id="new-todo" placeholder="what needs to be done?" autofocus>
+		</header>
+		<section id="main">
+			<input id="toggle-all" type="checkbox">
+			<label for="toggle-all">Mark as complete</label>
+			<ul id="todo-list"></ul>
+		</section>
+		<footer id="footer">
+		<span id="todo-count">
+			<strong>0</strong>
+			items left
+		</span>
+		<ul id="filters">
+			<li><a href="#" class="selected">All</a></li>
+			<li><a href="#">Active</a></li>
+			<li><a href="#">Completed</a></li>
+		</ul>
+		<button id="clear-completed">Clear Completed</button>	
+		</footer>
+	</section>
+</body>
+<script src="jquery-1.12.0.js"></script>
+<script src="todo.js"></script>
+</html>
